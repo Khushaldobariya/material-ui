@@ -6,7 +6,7 @@ const workspaceRoot = path.resolve(__dirname, '../');
 
 const browserStack = {
   username: process.env.BROWSERSTACK_USERNAME,
-  accessKey: process.env.BROWSERSTACK_ACCESS_KEY,
+  accessKey: process.env.BROWSERSTACKa_ACCESS_KEY,
   build: `mui-core-profile-${new Date().toISOString()}`,
 };
 
